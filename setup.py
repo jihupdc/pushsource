@@ -38,7 +38,7 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     install_requires=get_requirements(),
-    python_requires=">=3.6",
+    python_requires=">=3.12",
     entry_points={"console_scripts": ["pushsource-ls=pushsource._impl.list_cmd:main"]},
     project_urls={
         "Documentation": "https://release-engineering.github.io/pushsource/",
